@@ -1,7 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -84,4 +86,12 @@ button {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #556052;
+    margin-top: auto;
 }
