@@ -4,6 +4,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+
 }
 
 ul {
@@ -86,6 +87,46 @@ button {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+/*Section 2*/
+/*This looks messy and confused, go over the html and correct things here. */
+
+.info{
+    padding: 20px 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: #556052;
+    font-size: 36px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.infobox{
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AF6B58;
+    border-radius: 15px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.text{
+    max-width: 200px;
 }
 
 .footer {
