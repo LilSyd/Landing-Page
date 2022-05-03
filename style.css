@@ -28,6 +28,7 @@ a {
 h1 {
     color: #f9faf8;
     font-size: 48px;
+    font-weight: 800;
     margin: 24px;
 
 }
@@ -37,12 +38,13 @@ p {
     margin: 24px;
 }
 
-
+/*Section 1: Hero*/
 .hero {
     background-color: #556052;
     padding: 18px 50px;
 }
 
+/*Header (top bar)*/
 .header {
     color: #f9faf8;
     display: flex;
@@ -61,7 +63,7 @@ p {
     align-items: center;
     gap: 16px;
 }
-
+/*Headline (Big band)*/
 .headline {
     display: flex;
     align-items: space-evenly;
@@ -89,7 +91,7 @@ img {
     max-height: 100%;
 }
 
-/*Section 2*/
+/*Section 2: Info*/
 /*This looks messy and confused, go over the html and correct things here. */
 
 .info{
@@ -102,7 +104,7 @@ img {
 .title {
     color: #556052;
     font-size: 36px;
-    
+    font-weight: 800;
 }
 
 .container {
@@ -129,6 +131,8 @@ img {
     max-width: 200px;
 }
 
+
+/*Footer*/
 .footer {
     display: flex;
     align-items: center;
