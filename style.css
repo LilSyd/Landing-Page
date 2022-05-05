@@ -140,7 +140,33 @@ img {
 }
 
 /*Section 3*/
-/*Don't forget the font-weight and style*/
+
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 60px 50px 60px;
+    
+}
+
+.bigtext{
+    color: #556052;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 12px;
+    
+}
+
+.smalltext {
+    color: #556052;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: end;
+    size: auto;
+    margin-right: 20%;
+}
+
 
 /*Footer*/
 .footer {
