@@ -71,6 +71,7 @@ p {
     padding-bottom: 60px;
     gap: 16px;
 }
+
 .button {
     margin: 24px;
 }
@@ -81,6 +82,7 @@ button {
     border-radius: 8px;
     border-style: none;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 .image {
@@ -93,7 +95,6 @@ img {
 }
 
 /*Section 2: Info*/
-/*This looks messy and confused, go over the html and correct things here. */
 
 .info{
     padding: 50px 60px;
@@ -111,7 +112,7 @@ img {
     
 }
 
-.container {
+.container1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -140,8 +141,6 @@ img {
 }
 
 /*Section 3*/
-
-
 .quote {
     background-color: #e5e7eb;
     padding: 60px 50px 60px;
@@ -168,7 +167,49 @@ img {
 }
 
 /*Section 4*/
-/*Watch out for the formatting. Go over example before getting into it. No 'close' button so that's one problem out of the way.*/
+
+.cta {
+    background-color: #f9faf8;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #AF6B58;
+    width: 80%;
+    border-radius: 10px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.modtitle {
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.modtext {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+#cta {
+    margin: 8px 24px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    
+}
 
 /*Footer*/
 .footer {
