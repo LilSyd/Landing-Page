@@ -16,10 +16,6 @@ ul {
     gap: 16px;
 }
 
-/*li {
-    font-size: 18px;
-}*/
-
 a {
     text-decoration: none;
     color:#f9faf8;
@@ -46,7 +42,7 @@ p {
 
 /*Header (top bar)*/
 .header {
-    color: #f9faf8;
+    color: #f9f9f9;
     display: flex;
     justify-content: space-between;
     gap: 26px;
@@ -94,7 +90,7 @@ img {
     max-height: 100%;
 }
 
-/*Section 2: Info*/
+/*Info*/
 
 .info{
     padding: 50px 60px;
@@ -140,7 +136,7 @@ img {
     
 }
 
-/*Section 3*/
+/*Quote*/
 .quote {
     background-color: #e5e7eb;
     padding: 60px 50px 60px;
@@ -166,8 +162,7 @@ img {
     margin-right: 20%;
 }
 
-/*Section 4*/
-
+/*CTA*/
 .cta {
     background-color: #f9faf8;
     padding: 5% 10%;
